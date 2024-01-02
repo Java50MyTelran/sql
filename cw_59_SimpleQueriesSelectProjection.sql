@@ -1,0 +1,7 @@
+-- operator select
+-- select * from models where company='company1';
+-- select * from car_owners where birth_date between '1990-01-01' and '1995-12-31';
+-- select * from car_owners where phone like '050%';
+-- 
+-- operator projection
+-- select name, date_part('year',age(birth_date)) as age from car_owners where birth_date > '1995-01-01'
