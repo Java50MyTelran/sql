@@ -1,0 +1,15 @@
+--Get phone prefixes for car owners living in city1 
+--select substring(phone, 1, 3) from car_owners where city='city1'
+--
+-- Get full data about models, the value of engine power greater than 6% from the value of engine capacity 
+--select * from models where cast(engine_power as float) * 100 / engine_capacity > 6
+--
+--Get name and phone of the owners who were born at December
+--select name, phone from car_owners where extract(month from birth_date) = 12
+--
+--Get car number, model name and year of the cars with more than 5000 kilometers in a good state 
+-- select number, model_name, model_year from cars where kilometers > 5000 and state = 'good'
+--
+-- Get car numbers and trade deal dates for the cars sold in spring
+--select car_number, date from trade_deals where extract(month from date) between 3 and 5
+--
