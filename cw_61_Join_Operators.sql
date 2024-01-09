@@ -1,0 +1,3 @@
+-- get owner's name and maximal engine capacity of appropriate cars
+-- select o.name, max(engine_capacity) from car_owners o join cars c on o.id = c.owner_id
+-- join models m on c.model_name = m.name and c.model_year = m.year group by o.name
