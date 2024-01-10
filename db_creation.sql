@@ -18,7 +18,7 @@ insert into car_owners (id, name, city, phone, email, birth_date) values
 (128, 'name6', 'city1', '056-1111111', 'name6@gmail.com', '1990-12-20'), 
 (129, 'name7', 'city4', '057-1111111', 'name7@gmail.com', '1970-12-10'), 
 (130, 'name8', 'city2', '058-1111111', 'name8@gmail.com', '1985-05-20'), 
-(140, 'name8', 'city2', '058-1111111', 'name8@gmail.com', '1985-05-20'); 
+(140, 'name9', 'city2', '058-1111111', 'name8@gmail.com', '1985-05-20'); 
 --
 insert into cars (number, color, kilometers, state, model_name, model_year, owner_id) values 
 ('111-11-111', 'red', 1000, 'good', 'model1', 2020, 123),
